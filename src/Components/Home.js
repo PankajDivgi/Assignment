@@ -20,7 +20,7 @@ export default class Home extends Component {
                         <span></span>
                     </div>
                     <div className="user">
-                        <img src={User} />
+                        <img src={User} alt="no_img" />
                         <span></span>
                     </div>
                 </nav>
@@ -53,17 +53,17 @@ export default class Home extends Component {
                         <p>MORE</p>
                     </div>
                     <div className="searched-hotel">
-                        <img src={Hotel1} />
+                        <img src={Hotel1} alt="no_img" />
                         <div style={{paddingLeft:"16px",width:"100%"}}>
                             <div className="hotel-name">
-                                <h4>The Rose Hotel <img src={Verify}/></h4>
-                                <img src={Bookmark}/>
+                                <h4>The Rose Hotel <img src={Verify} alt="no_img"/></h4>
+                                <img src={Bookmark} alt="no_img"/>
                             </div>
-                            <img src={Star} className="star"/>
-                            <img src={Star} className="star"/>
-                            <img src={Star} className="star"/>
-                            <img src={Star} className="star"/>
-                            <img src={Starg} className="star"/>
+                            <img src={Star} className="star" alt="no_img"/>
+                            <img src={Star} className="star" alt="no_img"/>
+                            <img src={Star} className="star" alt="no_img"/>
+                            <img src={Star} className="star" alt="no_img"/>
+                            <img src={Starg} className="star" alt="no_img"/>
                             <div className="price">
                                 <p>Start from</p>
                                 <h4>$60<span>/Night</span></h4>
@@ -76,17 +76,17 @@ export default class Home extends Component {
                         <div><span className="hotel-dot"></span><p>10 Facilities</p></div>
                     </div>
                     <div className="searched-hotel">
-                        <img src={Hotel2} />
+                        <img src={Hotel2} alt="no_img"/>
                         <div style={{paddingLeft:"16px",width:"100%"}}>
                             <div className="hotel-name">
                                 <h4>Tretes Raya Hotel</h4>
-                                <img src={Bookmarkb}/>
+                                <img src={Bookmarkb} alt="no_img"/>
                             </div>
-                            <img src={Star} className="star"/>
-                            <img src={Star} className="star"/>
-                            <img src={Star} className="star"/>
-                            <img src={Starg} className="star"/>
-                            <img src={Starg} className="star"/>
+                            <img src={Star} className="star" alt="no_img"/>
+                            <img src={Star} className="star" alt="no_img"/>
+                            <img src={Star} className="star" alt="no_img"/>
+                            <img src={Starg} className="star" alt="no_img"/>
+                            <img src={Starg} className="star" alt="no_img"/>
                             <div className="price">
                                 <p>Start from</p>
                                 <h4>$145<span>/Night</span></h4>
