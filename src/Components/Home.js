@@ -87,7 +87,7 @@ export default class Home extends Component {
                             <img src={Star} className="star" alt="no_img"/>
                             <img src={Starg} className="star" alt="no_img"/>
                             <img src={Starg} className="star" alt="no_img"/>
-                            <div className="price">
+                            <div className="price"> 
                                 <p>Start from</p>
                                 <h4>$145<span>/Night</span></h4>
                             </div>
